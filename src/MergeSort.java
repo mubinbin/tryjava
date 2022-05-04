@@ -59,9 +59,12 @@ public class MergeSort {
     }
 
     public static void main(String[] args) {
-        int[] arr = {100, 3, 10001, 3, 40, -7, 2, 22, -1000};
+        int[] arr1 = {100, 3, 10001, 3, 40, -7, 2, 22, -1000};
+        int[] arr2 = {6,5,12,10,9,1};
 
-        sort(arr);
-        System.out.println(Arrays.toString(arr));
+        sort(arr2);
+        System.out.println(Arrays.toString(arr2));
+        sort(arr1);
+        System.out.println(Arrays.toString(arr1));
     }
 }
