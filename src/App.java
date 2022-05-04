@@ -70,6 +70,7 @@ public class App {
         // System.out.println(arr.length);
         // Arrays.stream(arr).forEach(System.out::println);
 
-        System.out.println(Solution.calculator2("-122-3+6*3"));
+        System.out.println(Calculator2.calculator2("-122-3+6*3"));
+        System.out.println(Calculator2.cal2("-122-3+6*3"));
     }
 }

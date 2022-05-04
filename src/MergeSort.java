@@ -1,4 +1,4 @@
-import java.util.Arrays;
+import java.util.*;
 
 public class MergeSort {
 
@@ -66,5 +66,14 @@ public class MergeSort {
         System.out.println(Arrays.toString(arr2));
         sort(arr1);
         System.out.println(Arrays.toString(arr1));
+
+        Deque<Integer> q = new ArrayDeque<>();
+        for (int num : arr1) {
+            q.addLast(num);
+            System.out.println(q);
+        }
+        while (!q.isEmpty()) {
+            System.out.println(q.pollLast());
+        }
     }
 }
