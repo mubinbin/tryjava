@@ -1,7 +1,5 @@
 import java.util.List;
 
-import javax.imageio.plugins.tiff.TIFFDirectory;
-
 public class RopeTree {
     Node root;
 

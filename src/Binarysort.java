@@ -5,7 +5,7 @@ import java.util.List;
 
 public class Binarysort {
     //O(n*log*n)
-    private static void binarySort(int[] arr){
+    private static void binarySort(Integer[] arr){
         //O(n)
         for(int i = 1; i < arr.length; i++){
             int ptr = i - 1;
@@ -20,7 +20,7 @@ public class Binarysort {
         }
     }
     // O(log*n)
-    private static int binarySearch(int[] arr, int target, int left, int right){
+    private static int binarySearch(Integer[] arr, int target, int left, int right){
         while(left < right){
             int mid = left + (right - left)/2;
             if(target == arr[mid]){
@@ -40,9 +40,11 @@ public class Binarysort {
     }
 
     public static void main(String[] args) {
-        int[] arr = new int[] {5,3,9,0,1};
+        Integer[] arr = new Integer[] {5,3,9,0,1};
         binarySort(arr);
         Arrays.stream(arr).forEach(System.out::println);
+        List<Integer> arrList = Arrays.asList(arr);
+        System.out.println(arrList.toString());
     }
 
 

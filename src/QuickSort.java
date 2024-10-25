@@ -79,7 +79,7 @@ public class QuickSort {
     }
 
     public static void main(String[] args) {
-        int[] arr = {100, 3, 10001, 3, 40, -7, 2, 22, -1000};
+        int[] arr = {100, 3, 0, 10001, 3, 40, -7, 2, 22, -1000};
 
         quickSort(arr);
         System.out.println(Arrays.toString(arr));

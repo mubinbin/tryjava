@@ -77,7 +77,7 @@ public class MyCalendarTwo {
 
     }
 
-    class Node {
+    static class Node {
         int start=-1, end = -1;
         int count = 0;
         Node left, right;
